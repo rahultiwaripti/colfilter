@@ -1,0 +1,50 @@
+
+
+<table>
+<tr><td colspan="2"><h3>Filtering Collections</h3></td></tr>       
+<tr><td colspan="2"><p>These options rely on your use of Product Tags.... You can enter anything in these areas providing that it exists as a product tag. To work effectively the tags must match case and spelling and all must be comma separated<br /></p></td></tr>
+
+<tr>
+<td><label for="filters">Show Collection Tag Filters?</label></td>
+<td><input type="checkbox" id="filters" name="filters" value="1" checked="checked"/></td>
+</tr>
+
+    <tr>
+      <td><label for="sort-dropdown-a-check">Show Filter 1</label></td>
+      <td><input type="checkbox" id="sort-dropdown-a-check" name="sort-dropdown-a-check" value="1" checked="checked"/></td>
+    </tr> 
+    <tr>
+        <td><label for="sort-a">Filter 1 Title</label></td>
+        <td><input type="text" id="sort-a" name="sort-a" value="Shirts, Pants, Dresses"/></td>
+   </tr>
+    <tr>
+        <td><label for="sort_a">Tags to filter 1st drop down</label></td>
+        <td><textarea cols="60" rows="10" id="sort_a" name="sort_a" value="Red, White," ></textarea></td>
+   </tr>
+
+    <tr>
+      <td><label for="sort-dropdown-b-check">Show Filter 2</label></td>
+      <td><input type="checkbox" id="sort-dropdown-b-check" name="sort-dropdown-b-check" value="1" checked="checked"/></td>
+    </tr>
+    <tr>
+        <td><label for="sort-b">Filter 2 Title</label></td>
+        <td><input type="text" id="sort-b" name="sort-b" value="Shirts, Pants, Dresses"/></td>
+   </tr>
+    <tr>
+        <td><label for="sort_b">Tags to filter 2nd drop down</label></td>
+        <td><textarea cols="60" rows="10" id="sort_b" name="sort_b" value="S, M, L," ></textarea></td>
+   </tr>
+
+    <tr>
+      <td><label for="sort-dropdown-c-check">Show Filter 3</label></td>
+      <td><input type="checkbox" id="sort-dropdown-c-check" name="sort-dropdown-c-check" value="1" checked="checked"/></td>
+    </tr> 
+    <tr>
+        <td><label for="sort-c">Filter 3 Title</label></td>
+        <td><input type="text" id="sort-c" name="sort-c" value="Shirts, Pants, Dresses"/></td>
+   </tr>
+    <tr>
+        <td><label for="sort_c">Tags to filter 3rd drop down</label></td>
+        <td><textarea cols="60" rows="10" id="sort_c" name="sort_c" value="Silk, Cotton, Linen," ></textarea></td>
+   </tr>
+   </table>
